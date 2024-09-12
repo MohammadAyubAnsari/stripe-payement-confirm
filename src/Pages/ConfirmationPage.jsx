@@ -35,7 +35,7 @@ const ConfirmationPage = () => {
     console.log("Form submitted with:", { name, wallet });
 
     // Redirect to the main page
-    navigate("/");
+    window.location.href = "https://stripe-payment-sample.onrender.com/";
   };
 
   return (
